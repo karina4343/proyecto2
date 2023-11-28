@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "titulo": "Cuaderno America rayado",
+        "descripcion": "Cuaderno A4 América 80 Hj Rayado",
+        "categoria": "cuadernos",
+        "imagen": "https://atomolibreria.com.ar/2214-home_default/cuaderno-a4-america-terra-rayado.jpg",
+        "precio": 1390,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "titulo": "Cuaderno America cuadriculado",
+        "descripcion": "Cuaderno A4 América 80 Hojas Cuadriculado.",
+        "categoria": "cuadernos",
+        "imagen": "https://acdn.mitiendanube.com/stores/001/196/825/products/261871-7250426c15e7c4d95616238667357447-1024-1024.jpg",
+        "precio": 1390,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "titulo": "Adhesivo Sta",
+        "descripcion": "Adhesivo Sta Vinílico 50g.",
+        "categoria": "Adhesivos",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3003284-800-auto?v=638366945067270000&width=800&height=auto&aspect=true",
+        "precio": 339,
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "titulo": "STAGOMA",
+        "descripcion": "Adhesivo Stagoma Sintético 50g.",
+        "categoria": "Adhesivos",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/2977239-800-auto?v=638364417968830000&width=800&height=auto&aspect=true",
+        "precio": 450,
+        "stock": 10
+    },
+    {
+        "id": 5,
+        "titulo": "POXIPOL",
+        "descripcion": "Eccole Poxipol adhesivo para zapatilla 9 g.",
+        "categoria": "Adhesivos",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/2972591-800-auto?v=638364350014370000&width=800&height=auto&aspect=true",
+        "precio": 2999,
+        "stock": 10
+    },
+    {
+        "id": 6,
+        "titulo": "AUCA",
+        "descripcion": "Cinta Transparente Auca 12x25 m.",
+        "categoria": "cintas",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3003276-800-auto?v=638366945027900000&width=800&height=auto&aspect=true",
+        "precio": 299,
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "titulo": "AUCA 2",
+        "descripcion": "Cinta Transparente Auca 12x60 m.",
+        "categoria": "cintas",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/2856927-800-auto?v=638356566898030000&width=800&height=auto&aspect=true",
+        "precio":  750,
+        "stock": 10
+    },
+    {
+        "id": 8,
+        "titulo": "AUCA 3",
+        "descripcion": "Cinta Papel Auca 18mm x 20m.",
+        "categoria": "cintas",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3014476-800-auto?v=638367213033930000&width=800&height=auto&aspect=true",
+        "precio": 790,
+        "stock": 10
+    },
+    {
+        "id": 9,
+        "titulo": "TAIKO",
+        "descripcion": "Lápiz Corrector Taiko.",
+        "categoria": "escritura",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3014571-800-auto?v=638367213488970000&width=800&height=auto&aspect=true",
+        "precio": 399,
+        "stock": 10
+    },
+    {
+        "id": 10,
+        "titulo": "MAPED BOOGY",
+        "descripcion": "Sacapuntas Maped Boogy Bolsa 3 Un.",
+        "categoria": "escritura",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3014454-800-auto?v=638367212914500000&width=800&height=auto&aspect=true",
+        "precio": 350,
+        "stock": 10
+    },
+    {
+        "id": 11,
+        "titulo": "FILGO",
+        "descripcion": "Bolígrafos Filgo Surtidos Flow Pack 6 Un.",
+        "categoria": "escritura",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3003941-800-auto?v=638366948966000000&width=800&height=auto&aspect=true",
+        "precio": 690,
+        "stock": 10
+    },
+    {
+        "id": 12,
+        "titulo": "TRILUX",
+        "descripcion": "Bolígrafos Trilux Azul-Surtidos Flow Pack 4 Un.",
+        "categoria": "escritura",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3014615-800-auto?v=638367213698370000&width=800&height=auto&aspect=true",
+        "precio": 1390,
+        "stock": 10
+    },
+    {
+        "id": 13,
+        "titulo": "FILGO 2",
+        "descripcion": "Lápices de Color Filgo 48 Un.",
+        "categoria": "escritura",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3003977-800-auto?v=638366949187700000&width=800&height=auto&aspect=true",
+        "precio": 4999,
+        "stock": 10
+    },
+    {
+        "id": 14,
+        "titulo": "MAPED",
+        "descripcion": "Set Geométrico Maped Regla 20cm+Escuadr+Transp.",
+        "categoria": "geometria",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3013801-800-auto?v=638367189705100000&width=800&height=auto&aspect=true",
+        "precio": 699,
+        "stock": 10
+    },
+    {
+        "id": 15,
+        "titulo": "MAPED KIDZ",
+        "descripcion": "Compás Maped Kidz Plástico Blister.",
+        "categoria": "geometria",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/2959409-800-auto?v=638363484779000000&width=800&height=auto&aspect=true",
+        "precio": 690,
+        "stock": 10
+    },
+    {
+        "id": 16,
+        "titulo": "FILGO",
+        "descripcion": "Resaltadores Filgo Lighter Fine Estuche 4 Un.",
+        "categoria": "marcadores y resaltadores",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3007771-800-auto?v=638366992731630000&width=800&height=auto&aspect=true",
+        "precio": 990,
+        "stock": 10
+    },
+    {
+        "id": 17,
+        "titulo": "SIMBALL",
+        "descripcion": "Marcadores Escolares Simball 10 Un.",
+        "categoria": "marcadores y resaltadores",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3006526-800-auto?v=638366964456400000&width=800&height=auto&aspect=true",
+        "precio": 790,
+        "stock": 10
+    },
+    {
+        "id": 18,
+        "titulo": "TRABI",
+        "descripcion": "Marcador Permanente Trabi 411 P/R Estuche 4 Un.",
+        "categoria": "marcadores y resaltadores",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/2973222-800-auto?v=638364354740800000&width=800&height=auto&aspect=true",
+        "precio": 1990,
+        "stock": 10
+    },
+    {
+        "id": 19,
+        "titulo": "calculadora",
+        "descripcion": "Calculadora Científica 12 Dígitos.",
+        "categoria": "accesorio",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3005878-800-auto?v=638366960585400000&width=800&height=auto&aspect=true",
+        "precio": 4690,
+        "stock": 10
+    },
+    {
+        "id": 20,
+        "titulo": "mochila escolar",
+        "descripcion": "Mochila Espalda Color Negro Combinado.",
+        "categoria": "accesorio",
+        "imagen": "https://ferniplastar.vtexassets.com/arquivos/ids/3009297-800-auto?v=638367014003470000&width=800&height=auto&aspect=true",
+        "precio": 16999,
+        "stock": 10
+    }
+]
