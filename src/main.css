@@ -6,7 +6,7 @@
 }
 
 :root {
-    --clr-main: #c56cee;
+    --clr-main: rgb(236, 13, 17);
     --clr-main-light: #efdaf9;
 }
 
@@ -44,7 +44,10 @@
 .menu-link {
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .menu-link:hover {
@@ -63,6 +66,7 @@
     flex-direction: column;
     border-radius: 1rem;
     overflow: hidden;
+    
 }
 
 .producto > div {
@@ -74,9 +78,13 @@
 }
 
 .producto > img {
+    
     width: 100%;
     aspect-ratio: 2/1;
     object-fit: cover;
+    padding: 0;
+    object-fit: contain;
+   
 }
 
 .producto .ver-mas {
@@ -177,3 +185,4 @@
     border: 2px solid var(--clr-main);
     outline: 2px solid var(--clr-main);
 }
+
