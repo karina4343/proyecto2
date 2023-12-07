@@ -1,10 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const NavBar = () => {
   return (
     <nav className='navbar'>
+      <img src="../../public/LibreriaNico.png" alt="logo" />
         <Link to="/" className='logo'> <h1>Libreria Nico</h1></Link>
+        
         <ul className='menu'>
             
             <li><Link className='menu-link' to="/productos">Productos</Link></li>

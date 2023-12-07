@@ -11,6 +11,7 @@
 }
 
 .container {
+    
     max-width: 1140px;
     padding-inline: 1.5rem;
     margin: 0 auto;
@@ -31,8 +32,13 @@
 }
 
 .logo {
+    background-image: "C:\Users\Usuario\Desktop\Proyectos\proyecto2\src\Imagen\Libreria Nico .png";
     text-decoration: none;
     color: black;
+}
+
+.fondo{
+    
 }
 
 .menu {
