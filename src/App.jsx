@@ -1,24 +1,20 @@
-import { useState } from "react";
+
 import Contacto from "./components/Contacto";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
 import NavBar from "./components/NavBar";
 import "./main.css"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { CartContext } from "./components/context/CartContext";
-
+import { CartProvider } from "./context/CartContext";
+import Carrito from "./components/Carrito";
+import Checkout from "./components/Checkout";
 
 
 function App() {
 
-  const [carrito, serCarrito] = useState([]);
-
-  const user = "kari" ;
-  const edad = "22";
-
   return (
     <div>
-      <CartContext.Provider value={user}>
+      <CartProvider>
         <BrowserRouter>
         
           <NavBar />
@@ -28,13 +24,14 @@ function App() {
             <Route path='item/:itemId' element={<ItemDetailContainer />} />
             <Route path="/productos" element={<ItemListContainer />} />
             <Route path="/productos/:categoria" element={<ItemListContainer />} />
-
             <Route path="/contacto" element={<Contacto />} />
+            <Route path="/carrito" element={<Carrito />}/>
+            <Route path="/checkout" element={<Checkout />}/>
           </Routes>
 
 
         </BrowserRouter>
-      </CartContext.Provider>
+      </CartProvider>
     </div>
   );
 }
