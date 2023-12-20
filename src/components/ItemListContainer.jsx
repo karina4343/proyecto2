@@ -7,7 +7,7 @@ import { collection, getDocs, getFirestore } from "firebase/firestore";
 
 const ItemListContainer = () => {
 
-  const [titulo, setTitulo] = useState("Productos");
+ 
   const { categoria } = useParams()
 
 
@@ -18,7 +18,7 @@ const ItemListContainer = () => {
 
     const db = getFirestore()
 
-    const itemsCollection = collection(db, productos)
+    const itemsCollection = collection(db, "productos")
     getDocs(itemsCollection).then((snapshot) => {
       const docs = snapshot.docs.map((doc) =>
       ({
