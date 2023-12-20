@@ -37,9 +37,6 @@
     color: black;
 }
 
-.fondo{
-    
-}
 
 .menu {
     list-style-type: none;
@@ -193,3 +190,6 @@
     outline: 2px solid var(--clr-main);
 }
 
+.iconoLogo{
+    width: 80px;
+}

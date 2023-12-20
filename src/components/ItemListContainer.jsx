@@ -1,36 +1,44 @@
 import { useEffect, useState } from "react";
 import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
-import {collection, getDocs} from "firebase/firestore";
-import {db} from "../firebase/config";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 
 
 
 const ItemListContainer = () => {
 
-  const [productos, setProductos] = useState([]);
-  const [titulo] = useState("Productos");
-  const categoria = useParams().categoria;
-  console.log(categoria);
+  const [titulo, setTitulo] = useState("Productos");
+  const { categoria } = useParams()
+
+
+  const [productos, setProductos] = useState([])
 
 
   useEffect(() => {
-    const productosRef = collection (db, "productos");
-    getDocs(productosRef)
-    .then((resp) => {
-      
-      setProductos(
-        resp.docs.map((doc)=> {
-          return {...doc.data(),id: doc.id}
-        })
-      )
+
+    const db = getFirestore()
+
+    const itemsCollection = collection(db, productos)
+    getDocs(itemsCollection).then((snapshot) => {
+      const docs = snapshot.docs.map((doc) =>
+      ({
+        ...doc.data(), id: doc.id
+      }))
+      setProductos(docs)
+
     })
-      
-  }, [categoria])
+  }, [])
+
+
+  const filteredProducts = productos.filter((producto) => producto.categoria === categoria)
+  console.log(filteredProducts)
+
 
   return (
     <div>
-      <ItemList productos={productos} titulo={titulo} />
+      {
+        categoria ? <ItemList productos={filteredProducts} /> : <ItemList productos={productos} />
+      }
 
     </div>
   )
